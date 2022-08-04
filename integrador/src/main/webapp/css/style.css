@@ -1,0 +1,298 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap')
+	;
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif, '400';
+}
+
+p, label, h4, h2, h5 {
+	color: #102C52;
+}
+
+/*CALENDAR*/
+.input-group-append {
+	cursor: pointer;
+}
+
+/* NAVBAR */
+#navbar {
+	height: 5rem;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.nav-link {
+	color: #4375B8 !important;
+	font-size: 1.5rem !important;
+}
+
+.nav-link:hover {
+	text-decoration: underline !important;
+}
+
+.btnNoStyle {
+	background-color: unset;
+	border: unset;
+	box-shadow: unset;
+}
+
+.btnNoStyle:active {
+	box-shadow: unset;
+	border: unset;
+}
+
+/*TEXTOS*/
+.homeText {
+	text-align: center;
+}
+
+.homeText h1 {
+	font-size: 2.5rem;
+	color: #102C52;
+}
+
+.homeText h4 {
+	font-size: 1.4rem;
+	color: #4375B8;
+}
+
+.textIndex {
+	color: #4375B8;
+	text-shadow: 2px 2px #102C52;
+	margin-top: 5rem;
+}
+
+.textUnderline {
+	text-decoration: underline
+}
+
+.fontSupport {
+	font-family: 'Lato', sans-serif, '700';
+	color: #dcba94;
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+/*CARD*/
+#imgAuth {
+	width: 50%;
+}
+
+#cardAuth {
+	justify-content: center;
+	width: 40%;
+	align-items: center;
+}
+
+#rowAuth {
+	justify-content: center;
+}
+
+.cardSectionP {
+	width: 15rem;
+	height: 15rem;
+}
+
+.card-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	border-radius: 20px;
+	border-color: transparent;
+}
+
+/*ESPEFICIFICACIONES*/
+.bg-body {
+	background: linear-gradient(0deg, rgba(152, 202, 240, 1) 0%,
+		rgba(237, 249, 255, 1) 77%);
+	/* height: 900px; */
+}
+
+.marginTop {
+	margin-top: 10rem;
+}
+
+.borderHr {
+	color: #f2e6d7;
+}
+
+/*BUTTONS*/
+.btnListPaciente {
+	background-color: #8ec5e4;
+	color: white;
+}
+
+.btnListPaciente:hover {
+	background-color: #dcba94;
+	color: white;
+}
+
+.btnModalOk {
+	background-color: #102C52;
+	color: white;
+}
+
+.btnModalOk:hover {
+	background-color: #dcba94;
+	color: #102C52;
+	font-weight: 600;
+	border-color: #dcba94;
+}
+
+.btnCustome {
+	font-size: 1.5rem;
+	background-color: white;
+	color: #8ec5e4;
+	font-weight: 600;
+}
+
+.btnCustome:hover {
+	background-color: #dcba94;
+	color: white;
+}
+
+.btnCustome2 {
+	font-size: 1.5rem;
+	background-color: #102C52;
+	color: white;
+	font-weight: 600;
+}
+
+.btnCustome2:hover {
+	background-color: #dcba94;
+	color: #102C52;
+	border-color: #dcba94;
+}
+
+.goBack {
+	color: #102C52;
+	font-weight: 600;
+}
+
+.goBack:hover {
+	color: #dcba94;
+}
+
+.btnCustomeCard {
+	border-radius: 20px;
+	font-size: 1.5rem;
+	background-color: #8ec5e4;
+	border-color: transparent;
+	color: white;
+	font-weight: 600;
+}
+
+.btnCustomeCard:hover {
+	background-color: #dcba94;
+	color: white;
+	border-color: #dcba94;
+}
+
+btnCustomeCard:active {
+	background-color: #dcba94;
+	color: white;
+	border-color: #dcba94;
+}
+
+/*GRID-HOME*/
+.containerHome {
+	margin-top: 3%
+}
+
+.row #rowButtons {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/*GRID-INDEX*/
+.colIndex {
+	display: flex;
+	justify-content: center;
+}
+
+.bgIndex {
+	margin-top: 5rem;
+	background-color: #f2e6d7;
+	border-radius: 50px;
+	padding: 2rem;
+}
+
+/*PROFILE*/
+.bgProfile {
+	margin-top: 5rem;
+	background-color: #bbdcee;
+	border-radius: 50px;
+	padding: 2rem;
+}
+
+.iconProfile {
+	background-color: white;
+	width: 11rem;
+	border-color: red;
+}
+
+.divIdProfile {
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+}
+
+.badgeBg {
+	background-color: #102C52;
+}
+
+.divDatosProfile {
+	display: grid;
+	justify-content: start;
+	justify-items: start;
+}
+
+.modalContentGrid {
+	display: grid;
+	justify-content: center;
+}
+
+.btnGroupProfile {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+/* MODAL MODIFIER*/
+.modal-dialog-scrollable .modal-content {
+	max-height: 150%;
+	overflow: hidden;
+}
+
+/*----------------------------------*/
+/*-------   MEDIAQUERY   -------*/
+/*----------------------------------*/
+
+/*small screen mobile*/
+@media screen and (min-width: 300px )and (max-width: 768px) {
+	.bg-body {
+		height: 900px
+	}
+}
+
+/*ipad*/
+@media screen and (min-width: 768px )and (max-width: 1200px) {
+	.bg-body {
+		height: 1150px;
+	}
+}
+
+/*large desktop*/
+@media screen and (min-width: 1200px ) {
+	.bg-body {
+		height: 1250px;
+	}
+}
